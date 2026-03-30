@@ -1,1 +1,2 @@
-# 5004CMD-Data-Science
+
+This report investigates national mobility patterns using the Bureau of Transportation Statistics (BTS) data. In this report there are two main concerns, the technical efficiency of parallel processing and the analysis of travel trends. By implementing a comparative framework between sequential processing (Pandas) and parallel computing (Dask), the ability to quantify the performance gain achieved through data partitioning. Moreover, using Linear Regression (LR) to model the relationship between total trip volume and specific distance segments to provide an r2 of 0.9827 confirmed that parallel processing significantly reduced latency and that national mobility indicates a predictable linear pattern across short distance trips.
